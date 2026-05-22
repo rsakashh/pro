@@ -1,22 +1,22 @@
 // ========== CUSTOMIZATION CONFIG ==========
 // Edit anything below to personalize your portfolio
 const CONFIG = {
-    name: "Your Name",
-    title: "Web Developer & Designer",
+    name: "RS AKASH",
+    title: "Web & Android Developer ",
     description: "I build beautiful, responsive websites and web applications.",
     about: [
-        "Hi! I'm a passionate web developer with experience in creating modern and responsive websites. I love turning ideas into reality through clean code and thoughtful design.",
+        "Hi! I'm a passionate web and Android app developer with experience in creating modern and responsive websites. I love turning ideas into reality through clean code and thoughtful design.",
         "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee."
     ],
     info: {
-        name: "Your Name",
-        email: "your@email.com",
+        name: "RS AKASH",
+        email: "rsa.akash@yahoo.com",
         location: "Dhaka, Bangladesh",
         freelance: "Available"
     },
     contact: {
-        email: "your@email.com",
-        phone: "+880 1XXX-XXXXXX",
+        email: "finixrsa@gmail.com",
+        phone: "+8801968051316",
         location: "Dhaka, Bangladesh"
     },
     skills: [
@@ -29,9 +29,9 @@ const CONFIG = {
     ],
     projects: [
         {
-            title: "Project One",
-            desc: "A brief description of your first amazing project goes here.",
-            tags: ["HTML", "CSS", "JS"],
+            title: "MyOvertime: A to Z",
+            desc: "A fully automated salary, overtime, night bill , tracking app",
+            tags: ["React", "HTML", "CSS", "JS"],
             demo: "#",
             source: "#"
         },
