@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name" id="heroName">Your Name</h1>
+                <p class="hero-title" id="heroTitle">Web Developer & Designer</p>
+                <p class="hero-desc" id="heroDesc">
+                    I build beautiful, responsive websites and web applications.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-placeholder" id="heroImagePlaceholder">
+                    <span>Your Photo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" id="aboutText">
+                    <p>
+                        Hi! I'm a passionate web developer with experience in creating
+                        modern and responsive websites. I love turning ideas into
+                        reality through clean code and thoughtful design.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new technologies,
+                        contributing to open-source projects, or enjoying a good cup of coffee.
+                    </p>
+                </div>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-label">Name:</span>
+                        <span class="info-value" id="infoName">Your Name</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value" id="infoEmail">your@email.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Location:</span>
+                        <span class="info-value" id="infoLocation">Dhaka, Bangladesh</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Freelance:</span>
+                        <span class="info-value" id="infoFreelance">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid" id="skillsGrid">
+                <div class="skill-card" data-progress="90">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar"><div class="skill-fill"></div></div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-card" data-progress="85">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar"><div class="skill-fill"></div></div>
+                    <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-card" data-progress="80">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-fill"></div></div>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-card" data-progress="75">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <div class="skill-bar"><div class="skill-fill"></div></div>
+                    <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-card" data-progress="70">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar"><div class="skill-fill"></div></div>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-card" data-progress="65">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <div class="skill-bar"><div class="skill-fill"></div></div>
+                    <span class="skill-percent">65%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <div class="project-card">
+                    <div class="project-img">Project One</div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>A brief description of your first amazing project goes here.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">Project Two</div>
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p>A brief description of your second amazing project goes here.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">Project Three</div>
+                    <div class="project-info">
+                        <h3>Project Three</h3>
+                        <p>A brief description of your third amazing project goes here.</p>
+                        <div class="project-tags">
+                            <span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span id="contactEmail">your@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span id="contactPhone">+880 1XXX-XXXXXX</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span id="contactLocation">Dhaka, Bangladesh</span>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" class="social-link" aria-label="GitHub">GitHub</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" class="social-link" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
